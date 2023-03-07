@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E317C82429B3D77000EA4CAD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E317C82329B3D77000EA4CAD /* FirebaseAuth */; };
+		E317C82629B3D77000EA4CAD /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E317C82529B3D77000EA4CAD /* FirebaseFirestore */; };
+		E317C82829B3D9A000EA4CAD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E317C82729B3D99700EA4CAD /* GoogleService-Info.plist */; };
+		E317C82A29B3DA7500EA4CAD /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E317C82929B3DA7500EA4CAD /* AuthView.swift */; };
+		E317C82C29B3F4CE00EA4CAD /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = E317C82B29B3F4CE00EA4CAD /* Course.swift */; };
+		E317C82E29B3F66700EA4CAD /* DataCourseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E317C82D29B3F66700EA4CAD /* DataCourseManager.swift */; };
+		E359AA1D29AEAA8A00038667 /* CourseRecomendationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359AA1C29AEAA8A00038667 /* CourseRecomendationView.swift */; };
+		E359AA1F29AEAAA500038667 /* AddPostview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359AA1E29AEAAA500038667 /* AddPostview.swift */; };
+		E359AA2129AEAAB300038667 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359AA2029AEAAB300038667 /* HomeView.swift */; };
+		E359AA2329AEAAC100038667 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359AA2229AEAAC100038667 /* CalendarView.swift */; };
+		E359AA2529AEAAEE00038667 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359AA2429AEAAEE00038667 /* ProfileView.swift */; };
+		E359AA2729AEB32100038667 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E359AA2629AEB32100038667 /* ColorExtension.swift */; };
+		E36F06FA29B3B63D00D038B2 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36F06F929B3B63D00D038B2 /* LaunchScreenView.swift */; };
+		E36F06FC29B3B64C00D038B2 /* LaunchScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36F06FB29B3B64C00D038B2 /* LaunchScreenManager.swift */; };
+		E3CE455B29AEA6F700983F45 /* Calligo_NavApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE455A29AEA6F700983F45 /* Calligo_NavApp.swift */; };
+		E3CE455D29AEA6F700983F45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CE455C29AEA6F700983F45 /* ContentView.swift */; };
+		E3CE455F29AEA6FA00983F45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3CE455E29AEA6FA00983F45 /* Assets.xcassets */; };
+		E3CE456229AEA6FA00983F45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3CE456129AEA6FA00983F45 /* Preview Assets.xcassets */; };
+		F307918529B52BBD0099E996 /* faqView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307918429B52BBD0099E996 /* faqView.swift */; };
+		F307918729B52EC70099E996 /* BugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307918629B52EC70099E996 /* BugView.swift */; };
+		F307918929B56B490099E996 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307918829B56B490099E996 /* Post.swift */; };
+		F307918B29B579570099E996 /* TwitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307918A29B579570099E996 /* TwitterView.swift */; };
+		F307918D29B58F590099E996 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307918C29B58F590099E996 /* SettingsView.swift */; };
+		F307919129B6B5E20099E996 /* Testview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307919029B6B5E20099E996 /* Testview.swift */; };
+		F307919B29B6DEF20099E996 /* AttendanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307919A29B6DEF20099E996 /* AttendanceView.swift */; };
+		F307919D29B6DF810099E996 /* FormattedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307919C29B6DF810099E996 /* FormattedDate.swift */; };
+		F307919F29B6F54F0099E996 /* AbsenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F307919E29B6F54F0099E996 /* AbsenceView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E317C82729B3D99700EA4CAD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E317C82929B3DA7500EA4CAD /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		E317C82B29B3F4CE00EA4CAD /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		E317C82D29B3F66700EA4CAD /* DataCourseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCourseManager.swift; sourceTree = "<group>"; };
+		E359AA1C29AEAA8A00038667 /* CourseRecomendationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseRecomendationView.swift; sourceTree = "<group>"; };
+		E359AA1E29AEAAA500038667 /* AddPostview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostview.swift; sourceTree = "<group>"; };
+		E359AA2029AEAAB300038667 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E359AA2229AEAAC100038667 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		E359AA2429AEAAEE00038667 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		E359AA2629AEB32100038667 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		E36F06F929B3B63D00D038B2 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		E36F06FB29B3B64C00D038B2 /* LaunchScreenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenManager.swift; sourceTree = "<group>"; };
+		E36F06FD29B3B6A400D038B2 /* Calligo-Nav-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Calligo-Nav-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E3CE455729AEA6F700983F45 /* Calligo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calligo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CE455A29AEA6F700983F45 /* Calligo_NavApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calligo_NavApp.swift; sourceTree = "<group>"; };
+		E3CE455C29AEA6F700983F45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E3CE455E29AEA6FA00983F45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3CE456129AEA6FA00983F45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F307918429B52BBD0099E996 /* faqView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faqView.swift; sourceTree = "<group>"; };
+		F307918629B52EC70099E996 /* BugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugView.swift; sourceTree = "<group>"; };
+		F307918829B56B490099E996 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F307918A29B579570099E996 /* TwitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterView.swift; sourceTree = "<group>"; };
+		F307918C29B58F590099E996 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F307919029B6B5E20099E996 /* Testview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testview.swift; sourceTree = "<group>"; };
+		F307919A29B6DEF20099E996 /* AttendanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceView.swift; sourceTree = "<group>"; };
+		F307919C29B6DF810099E996 /* FormattedDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormattedDate.swift; sourceTree = "<group>"; };
+		F307919E29B6F54F0099E996 /* AbsenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3CE455429AEA6F700983F45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E317C82429B3D77000EA4CAD /* FirebaseAuth in Frameworks */,
+				E317C82629B3D77000EA4CAD /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E359AA1B29AEAA5500038667 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F307918329B52BAC0099E996 /* Settings */,
+				E359AA1C29AEAA8A00038667 /* CourseRecomendationView.swift */,
+				F307919029B6B5E20099E996 /* Testview.swift */,
+				E359AA1E29AEAAA500038667 /* AddPostview.swift */,
+				E359AA2029AEAAB300038667 /* HomeView.swift */,
+				E359AA2229AEAAC100038667 /* CalendarView.swift */,
+				F307919A29B6DEF20099E996 /* AttendanceView.swift */,
+				F307919E29B6F54F0099E996 /* AbsenceView.swift */,
+				E359AA2429AEAAEE00038667 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E36F06F829B3B61600D038B2 /* launchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E36F06F929B3B63D00D038B2 /* LaunchScreenView.swift */,
+				E36F06FB29B3B64C00D038B2 /* LaunchScreenManager.swift */,
+			);
+			path = launchScreen;
+			sourceTree = "<group>";
+		};
+		E3CE454E29AEA6F700983F45 = {
+			isa = PBXGroup;
+			children = (
+				E36F06F829B3B61600D038B2 /* launchScreen */,
+				E3CE455929AEA6F700983F45 /* Calligo Nav */,
+				E3CE455829AEA6F700983F45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3CE455829AEA6F700983F45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE455729AEA6F700983F45 /* Calligo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3CE455929AEA6F700983F45 /* Calligo Nav */ = {
+			isa = PBXGroup;
+			children = (
+				E36F06FD29B3B6A400D038B2 /* Calligo-Nav-Info.plist */,
+				E359AA2629AEB32100038667 /* ColorExtension.swift */,
+				E359AA1B29AEAA5500038667 /* Views */,
+				E3CE455A29AEA6F700983F45 /* Calligo_NavApp.swift */,
+				E3CE455C29AEA6F700983F45 /* ContentView.swift */,
+				E3CE455E29AEA6FA00983F45 /* Assets.xcassets */,
+				E317C82729B3D99700EA4CAD /* GoogleService-Info.plist */,
+				E317C82929B3DA7500EA4CAD /* AuthView.swift */,
+				E317C82B29B3F4CE00EA4CAD /* Course.swift */,
+				F307918829B56B490099E996 /* Post.swift */,
+				F307919C29B6DF810099E996 /* FormattedDate.swift */,
+				E3CE456029AEA6FA00983F45 /* Preview Content */,
+				E317C82D29B3F66700EA4CAD /* DataCourseManager.swift */,
+			);
+			path = "Calligo Nav";
+			sourceTree = "<group>";
+		};
+		E3CE456029AEA6FA00983F45 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE456129AEA6FA00983F45 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F307918329B52BAC0099E996 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F307918429B52BBD0099E996 /* faqView.swift */,
+				F307918629B52EC70099E996 /* BugView.swift */,
+				F307918A29B579570099E996 /* TwitterView.swift */,
+				F307918C29B58F590099E996 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3CE455629AEA6F700983F45 /* Calligo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3CE456529AEA6FA00983F45 /* Build configuration list for PBXNativeTarget "Calligo" */;
+			buildPhases = (
+				E3CE455329AEA6F700983F45 /* Sources */,
+				E3CE455429AEA6F700983F45 /* Frameworks */,
+				E3CE455529AEA6F700983F45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calligo;
+			packageProductDependencies = (
+				E317C82329B3D77000EA4CAD /* FirebaseAuth */,
+				E317C82529B3D77000EA4CAD /* FirebaseFirestore */,
+			);
+			productName = "Calligo Nav";
+			productReference = E3CE455729AEA6F700983F45 /* Calligo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3CE454F29AEA6F700983F45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E3CE455629AEA6F700983F45 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E3CE455229AEA6F700983F45 /* Build configuration list for PBXProject "Calligo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3CE454E29AEA6F700983F45;
+			packageReferences = (
+				E317C82229B3D77000EA4CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = E3CE455829AEA6F700983F45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3CE455629AEA6F700983F45 /* Calligo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3CE455529AEA6F700983F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CE456229AEA6FA00983F45 /* Preview Assets.xcassets in Resources */,
+				E3CE455F29AEA6FA00983F45 /* Assets.xcassets in Resources */,
+				E317C82829B3D9A000EA4CAD /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3CE455329AEA6F700983F45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F307918729B52EC70099E996 /* BugView.swift in Sources */,
+				E317C82C29B3F4CE00EA4CAD /* Course.swift in Sources */,
+				F307918529B52BBD0099E996 /* faqView.swift in Sources */,
+				F307918D29B58F590099E996 /* SettingsView.swift in Sources */,
+				F307919129B6B5E20099E996 /* Testview.swift in Sources */,
+				E359AA1D29AEAA8A00038667 /* CourseRecomendationView.swift in Sources */,
+				E3CE455D29AEA6F700983F45 /* ContentView.swift in Sources */,
+				E359AA2329AEAAC100038667 /* CalendarView.swift in Sources */,
+				E359AA2729AEB32100038667 /* ColorExtension.swift in Sources */,
+				E359AA1F29AEAAA500038667 /* AddPostview.swift in Sources */,
+				E359AA2129AEAAB300038667 /* HomeView.swift in Sources */,
+				E317C82E29B3F66700EA4CAD /* DataCourseManager.swift in Sources */,
+				F307919F29B6F54F0099E996 /* AbsenceView.swift in Sources */,
+				F307919D29B6DF810099E996 /* FormattedDate.swift in Sources */,
+				E359AA2529AEAAEE00038667 /* ProfileView.swift in Sources */,
+				F307918B29B579570099E996 /* TwitterView.swift in Sources */,
+				F307918929B56B490099E996 /* Post.swift in Sources */,
+				F307919B29B6DEF20099E996 /* AttendanceView.swift in Sources */,
+				E3CE455B29AEA6F700983F45 /* Calligo_NavApp.swift in Sources */,
+				E36F06FC29B3B64C00D038B2 /* LaunchScreenManager.swift in Sources */,
+				E317C82A29B3DA7500EA4CAD /* AuthView.swift in Sources */,
+				E36F06FA29B3B63D00D038B2 /* LaunchScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E3CE456329AEA6FA00983F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3CE456429AEA6FA00983F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3CE456629AEA6FA00983F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Calligo Nav/Preview Content\"";
+				DEVELOPMENT_TEAM = 76DAP6JDXR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Calligo-Nav-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codemiracles.suraj.Calligo-Nav";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3CE456729AEA6FA00983F45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Calligo Nav/Preview Content\"";
+				DEVELOPMENT_TEAM = 76DAP6JDXR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Calligo-Nav-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codemiracles.suraj.Calligo-Nav";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3CE455229AEA6F700983F45 /* Build configuration list for PBXProject "Calligo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CE456329AEA6FA00983F45 /* Debug */,
+				E3CE456429AEA6FA00983F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3CE456529AEA6FA00983F45 /* Build configuration list for PBXNativeTarget "Calligo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CE456629AEA6FA00983F45 /* Debug */,
+				E3CE456729AEA6FA00983F45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E317C82229B3D77000EA4CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E317C82329B3D77000EA4CAD /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E317C82229B3D77000EA4CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E317C82529B3D77000EA4CAD /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E317C82229B3D77000EA4CAD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E3CE454F29AEA6F700983F45 /* Project object */;
+}
